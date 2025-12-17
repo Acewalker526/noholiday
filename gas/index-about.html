@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - JOSHMAN COMPUTER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <h1 class="logo">NO HOLIDAY BUSINESSES</h1>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index-about.html" class="active">About</a></li>
+      <li><a href="index-delivery.html">Home Delivery</a></li>
+      <li><a href="index-contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content">
+  <section class="services" style="background:#fff;">
+    <h2>About NO HOLIDAY BUSINESSES</h2>
+    <p style="max-width: 900px; margin: 20px auto; line-height: 1.8;">
+      Welcome to NO HOLIDAY BUSINESSES, your trusted partner for all your gas needs.
+      We strive to provide high-quality gas and exceptional customer services to ensure 
+      a smooth journey for you and your love ones.
+    </p>
+
+    <p style="max-width: 900px; margin: 10px auto; line-height: 1.8;">
+      With years of experience in a gas station, we pride ourselves on 
+      customer satisfaction, transparency, and professionalism. Our goal is to make every 
+      customer walk away happy, confident, and satisfied with their service.
+    </p>
+    <h3>Why Choose Us?</h3>
+        <ul>
+            <li>Fast Delivery</li>
+            <li>Safe Cylinder Handling</li>
+            <li>Affordable Prices</li>
+            <li>Available 24/7</li>
+        </ul>
+
+    <div style="margin-top: 30px;">
+      <a href="index.html" class="btn">View Products</a>
+    </div>
+  </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NO HOLIDAY BUSINESSES. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.getElementById("menu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>

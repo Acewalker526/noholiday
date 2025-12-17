@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - JOSHMAN COMPUTER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <h1 class="logo">JOSHMAN COMPUTER</h1>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index-about.html">About</a></li>
+      <li><a href="index-delivery.html" class="active">Home Delivery</a></li>
+      <li><a href="index-contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content">
+  <section class="services">
+    <h2>Home Delivery Service</h2>
+    <p style="margin: 10px auto; max-width: 800px;">
+      Order gas cylinders and accessories anytime — we deliver fast, safely and 24/7.
+    </p>
+
+    <div class="service-box">
+        <h3>Fast Delivery</h3>
+        <img src="IMG-20251126-WA0022.jpg" alt="delivery vehicle">
+        <p>Quick doorstep delivery, often under 30 minutes.</p>
+      </div>
+      <div class="service-box">
+        <h3>Pay on Delivery</h3>
+        <img src="IMG-20251126-WA0007.jpg" alt="delivery vehicle">
+        <p>Cash or transfer — secure and convenient.</p>
+      </div>
+      <div class="service-box">
+        <h3>Safe Handling</h3>
+        <img src="IMG-20251126-WA0004.jpg" alt="delivery vehicle">
+        <p>Trained staff for proper installation and handling.</p>
+      </div>
+      <a href="index-contact.html" class="btn">Order Now</a>
+
+  <footer>
+    <p>&copy; 2025 NO HOLIDAY BUSINESSES. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.getElementById("menu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navLinks.classList.toggle("active");
+    });
+
+
+    
+  </script>
+
+</body>
+</html>

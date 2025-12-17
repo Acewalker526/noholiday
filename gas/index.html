@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOSHMAN COMPUTER - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="hero">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <h1 class="logo">NO HOLIDAY BUSINESSES</h1>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index-about.html">About</a></li>
+        <li><a href="index-delivery.html">Home Delivery</a></li>
+        <li><a href="index-contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content" id="main-content">
+      <h2>Fast & Reliable Gas Supply</h2>
+      <p>We deliver gas cylinders to your home instantly.<br>Safe • Affordable • Always Available</p>
+    </div>
+  </header>
+
+    <h2>Our Products</h2>
+    <p style="margin: 10px auto; max-width: 800px;">
+      Refill, swap or buy — we deliver cylinders and accessories fast and safely.
+    </p>
+
+  <section class="services">
+    <div class="service-box">
+        <h3>3kg Gas Cylinder</h3>
+        <img src="3KG (1).JPG" alt="3kg cylinder">
+        <p>Refill &amp; swap. Compact and portable.</p>
+        <a href="index-contact.html">Order Now</a>
+      </div>
+    <div class="service-grid">
+      <div class="service-box">
+        <h3>6kg Gas Cylinder</h3>
+        <img src="6KG.JPG" alt="6kg cylinder">
+        <p>Ideal for regular household use. Refill &amp; swap available.</p>
+        <a href="index-contact.html">Get Now</a>
+      </div>
+      <div class="service-box"> 
+        <h3>12kg Gas Cylinder</h3>
+        <img src="IMG-20251126-WA0002.jpg" alt="12kg cylinder">
+        <p>Longer-lasting cylinder for larger families and businesses.</p>
+        <a href="index-contact.html">Order Now</a>
+      </div>
+      <div class="service-box">
+        <h3>Accessories</h3>
+        <img src="IMG_E4377.JPG" alt="Accessories">
+        <p>Burners, pipes, regulators and installation services.</p>
+        <a href="index-contact.html">Order Now</a>
+      </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 NO HOLIDAY BUSINESSES. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.getElementById("menu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navLinks.classList.toggle("active");
+  });
+
+  </script>
+
+</body>
+</html>
